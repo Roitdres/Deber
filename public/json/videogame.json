@@ -1,0 +1,110 @@
+[
+    {
+      "id": 1,
+      "title": "Elden Ring",
+      "genre": "Action RPG",
+      "releaseDate": "2022-02-25",
+      "isAvailable": true,
+      "price": 59.99,
+      "imageUrl": "https://m.media-amazon.com/images/M/MV5BZGQxMjYyOTUtNjYyMC00NzdmLWI4YmYtMDhiODU3Njc5ZDJkXkEyXkFqcGc@._V1_QL75_UX190_CR0,2,190,281_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Legend of Zelda: Tears of the Kingdom",
+      "genre": "Adventure",
+      "releaseDate": "2023-05-12",
+      "isAvailable": true,
+      "price": 69.99,
+      "imageUrl": "https://upload.wikimedia.org/wikipedia/en/thumb/f/fb/The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg/250px-The_Legend_of_Zelda_Tears_of_the_Kingdom_cover.jpg"
+    },
+    {
+      "id": 3,
+      "title": "God of War Ragnarök",
+      "genre": "Action",
+      "releaseDate": "2022-11-09",
+      "isAvailable": true,
+      "price": 69.99,
+      "imageUrl": "https://blog.playstation.com/uploads/2022/10/42cfef76f8a78442f2bc78bc8a0fa183de6ab83f.jpeg"
+    },
+    {
+      "id": 4,
+      "title": "Final Fantasy XVI",
+      "genre": "Action RPG",
+      "releaseDate": "2023-06-22",
+      "isAvailable": true,
+      "price": 69.99,
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202212/0108/yPQHi9pITw5RwQnuQcY0262O.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Spider-Man 2",
+      "genre": "Action Adventure",
+      "releaseDate": "2023-10-20",
+      "isAvailable": true,
+      "price": 69.99,
+      "imageUrl": "https://cdn2.steamgriddb.com/grid/90357c85e7a5dde4bf102f76bd8cab36.png"
+    },
+    {
+      "id": 6,
+      "title": "MINECRAFT",
+      "genre": "Aventura",
+      "releaseDate": "2023-02-10",
+      "isAvailable": true,
+      "price": 29.99,
+      "imageUrl": "https://wallpapercat.com/w/full/2/c/5/86943-1242x2208-mobile-hd-minecraft-background.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Resident Evil 4 Remake",
+      "genre": "Survival Horror",
+      "releaseDate": "2023-03-24",
+      "isAvailable": true,
+      "price": 59.99,
+      "imageUrl": "https://image.api.playstation.com/vulcan/ap/rnd/202210/0706/EVWyZD63pahuh95eKloFaJuC.png"
+    },
+    {
+      "id": 8,
+      "title": "Starfield",
+      "genre": "RPG",
+      "releaseDate": "2023-09-06",
+      "isAvailable": true,
+      "price": 69.99,
+      "imageUrl": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/35271885-b64b-49da-b43d-e9aa8fa4d471/dg0902e-78d7be0c-bc6c-4f78-bb72-1143cf69c24b.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzM1MjcxODg1LWI2NGItNDlkYS1iNDNkLWU5YWE4ZmE0ZDQ3MVwvZGcwOTAyZS03OGQ3YmUwYy1iYzZjLTRmNzgtYmI3Mi0xMTQzY2Y2OWMyNGIuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.bC10_Q7aNxPHoMEMjB_nsG9N0rwQAXslGfPPTKb-sqY"
+    },
+    {
+      "id": 9,
+      "title": "Cyberpunk 2077",
+      "genre": "Action RPG",
+      "releaseDate": "2020-12-10",
+      "isAvailable": true,
+      "price": 49.99,
+      "imageUrl": "https://wallpapers.com/images/featured/cyberpunk-2077-q0o5txv6a3pqp7a9.jpg"
+    },
+    {
+      "id": 10,
+      "title": "FIFA 24",
+      "genre": "Sports",
+      "releaseDate": "2023-09-29",
+      "isAvailable": true,
+      "price": 69.99,
+      "imageUrl": "https://i.pinimg.com/736x/b1/fa/a2/b1faa25f8499f1edb5353e3109b91ad3.jpg"
+    },
+    {
+      "id": 11,
+      "title": "Call of Duty: Modern Warfare III",
+      "genre": "Shooter",
+      "releaseDate": "2023-11-10",
+      "isAvailable": true,
+      "price": 69.99,
+      "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHTz65TwErdOMX_mMCQaqpIDnyiDG0jXX-Ow&s"
+    },
+    {
+      "id": 12,
+      "title": "Assassin's Creed Mirage",
+      "genre": "Action Adventure",
+      "releaseDate": "2023-10-05",
+      "isAvailable": true,
+      "price": 49.99,
+      "imageUrl": "https://www.gamewallpapers.com/img_script/mobile_dir2/img.php?src=wallpaper_assassins_creed_mirage_04_1440x2560.jpg&width=253&height=450&crop-to-fit&sharpen"
+    }
+  ]

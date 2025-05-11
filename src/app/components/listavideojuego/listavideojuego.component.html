@@ -1,0 +1,33 @@
+<h1>Videojuegos comprados</h1>  
+
+@if (games.length == 0) {
+    <p>No hay videojuegos comprados</p>
+} 
+@else {
+    <div class="card-container">
+    @for (game of games; track $index) {
+        <mat-card class="videojuego-card" appearance="outlined"
+        (mouseenter)="hoverIn($event)"
+        (mouseleave)="hoverOut($event)">
+            <mat-card-header>
+                <mat-card-title-group>
+                    <mat-card-title>{{ game.title | uppercase }}</mat-card-title>
+                    <mat-card-subtitle>{{ game.genre }}</mat-card-subtitle>  
+                    <img mat-card-xl-image [src]="game.imageUrl" >  
+                </mat-card-title-group>
+            </mat-card-header>
+            <mat-card-content>
+                {{ game.releaseDate | date:'dd/MM/yyyy' }}
+                <br>  
+                {{game.price |currency: 'USD'}}
+            </mat-card-content>
+            <mat-card-actions>
+                <mat-icon>
+                    download
+                </mat-icon>
+                <button mat-button (click)="jugar(game)">Instalar</button>  
+            </mat-card-actions>
+        </mat-card>
+    }
+</div>
+}

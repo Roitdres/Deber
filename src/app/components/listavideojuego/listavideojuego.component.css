@@ -1,0 +1,63 @@
+/* Estilos para el contenedor principal */
+:host {
+    display: block;
+    padding: 20px;
+  }
+  
+  /* Estilos para las tarjetas de videojuegos */
+  .videojuego-card {
+    width: 280px; /* Ancho fijo para cada tarjeta */
+    margin: 15px;
+    display: inline-block;
+    vertical-align: top;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Contenedor para las tarjetas - importante para el diseño en grid */
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: -15px; /* Compensa el margen de las tarjetas */
+  }
+  
+  /* Efecto hover para mejorar la interactividad */
+
+  
+  /* Estilos para la imagen del juego */
+  img[mat-card-xl-image] {
+    height: 210px;
+    width: 150px;
+    object-fit: cover;
+  }
+  
+  /* Estilos para el botón de jugar */
+  mat-card-actions button {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  /* Media queries para hacerlo responsive */
+  @media (max-width: 1200px) {
+    .videojuego-card {
+      width: calc(25% - 30px);
+    }
+  }
+  
+  @media (max-width: 900px) {
+    .videojuego-card {
+      width: calc(33.33% - 30px);
+    }
+  }
+  
+  @media (max-width: 600px) {
+    .videojuego-card {
+      width: calc(50% - 30px);
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .videojuego-card {
+      width: calc(100% - 30px);
+    }
+  }
